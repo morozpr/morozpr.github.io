@@ -1,0 +1,80 @@
+body {
+    background-color: #D6D6D6;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.zadanie {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.tovar {
+    font-family: sans-serif;
+    margin: 5px;
+    flex-flow: column;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 30%;
+    padding: 2px 8px;
+}
+
+.tovar_h {
+    width: 100%;
+    color: #323232;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 0 10px;
+    padding-right: 35px;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+.tovar_text {
+    word-spacing: 1px;
+    height: auto;
+    color: #B7B7B7;
+    padding: 0 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-right: 35px;
+    justify-content: center;
+}
+
+.tovar_photo {
+    margin: 5px auto;
+    margin-bottom: 20px;
+    max-height: 40%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.tovar_photo_img {
+    display: block;
+    margin: 0 auto;
+    max-height: 200px;
+}
+
+.tovar_button {
+    align-content: flex-end;
+}
+
+.tovar_button_a {
+    height: 45px;
+    align-items: flex-end;
+    width: 100%;
+    background: linear-gradient(to right, #4673E3, #869EDE);
+    border-radius: 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: #E9EEF9;
+    border-style: none;
+    
+}
