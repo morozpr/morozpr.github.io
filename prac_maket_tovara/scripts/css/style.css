@@ -14,15 +14,15 @@ img {
     flex-wrap: wrap; 
     justify-content: center;
     height: 100%;
+    align-content: center;
 }
 
 .tovar {
-    margin: 5px;
+    margin: 10px;
     width: 270px;
     background-color: #fff;
     border-radius: 20px;
     padding: 2px 8px;
-    max-height: 360px;
     display: flex;
     flex-direction: column;
 }
