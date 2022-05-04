@@ -1,24 +1,24 @@
 body {
     background-color: #D6D6D6;
+    font-family: Arial;
 }
 
 img {
     width: 100%;
-    max-width: 100%;
     height: auto;
 }
 
 .zadanie {
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap; 
     justify-content: center;
     height: 100%;
 }
 
 .tovar {
-    font-family: sans-serif;
     margin: 5px;
-    width: 300px;
+    width: 270px;
     background-color: #fff;
     border-radius: 20px;
     padding: 2px 8px;
@@ -28,25 +28,26 @@ img {
 }
 
 .tovar_h {
-    width: 100%;
     color: #323232;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bolder;
     padding: 0 10px;
     padding-right: 35px;
     margin-bottom: 10px;
-    display: inline-flex;
+    word-wrap: break-word;
 }
 
 .tovar_text {
+    word-wrap: break-word;
     word-spacing: 1px;
     max-height: 100%;
-    color: #B7B7B7;
+    color: #b4b4b4;
     padding: 0 10px;
-    font-size: 16px;
-    margin-bottom: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
     padding-right: 35px;
     justify-content: center;
+    max-height: auto;
 }
 
 .tovar_photo {
