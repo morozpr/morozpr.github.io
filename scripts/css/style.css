@@ -1,69 +1,98 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
-    width: 100%;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(25, 50, 95);
+  width: 100%;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #262729;
 }
 
 a {
-    text-decoration: none;
-    color: #9193A2;
+  text-decoration: none;
+  color: #9193A2;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.horizontal_menu {
+  width: 12em;
+  height: 100%;
+  float: left;
 }
 
 .header {
-    justify-content: center;
-    align-items: center;
-    padding: 20px 50px;
-    width: 100%;
-    background-color: #1E2441;
-    display: flex;
-    margin-bottom: 5px;
+  width: 100%;
+  padding: 20px 20px;
+  height: 3rem;
+  background-color: #212224;
+  display: flex;
+  margin-bottom: 5px;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: hidden;
 }
 
-.head_nav {
-    display: inline-block;
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5rem;
 }
 
-.nav_block_link {
-    margin: 5px 15px;
-    color: rgb(241, 241, 241);
+
+.horizontal_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
-.nav_block_link:hover {
-    text-decoration: underline;
+.nav_links {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_links:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.content {
+  display: flex;
 }
 
 .projects {
-    padding: 0 10px;
-    padding: 15px 50px;
-    border-radius: 3px;
+  padding: 0 10px;
+  padding: 15px 50px;
+  border-radius: 3px;
 }
 
-.content_h2 {
-    font-weight: bold;
-    font-size: 30;
-    margin-bottom: 30px;
-    color: white;
+.projects > h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: white;
 }
 
 .main_ul {
-    color: #9193A2;
+  color: #9193A2;
 }
 
 .main_li_a:hover {
-    display: inline-block;
-    padding: 1px;
-    border: #9193A2 solid 1px;
-    color: white;
+  display: inline-block;
+  padding-left: 5px;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.3s;
 }
